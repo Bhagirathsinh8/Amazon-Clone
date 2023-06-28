@@ -259,7 +259,18 @@ align-items: flex-end;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.box-item-img {
+    height: 115px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-ads{
+    background-image:url("Image/Ads.jpg");
+    width: auto;
+    margin-top: 60px;
+    height: 260px;
+    background-size: cover;
+}
 /* footer */
 footer{
     margin-top: 15px;
