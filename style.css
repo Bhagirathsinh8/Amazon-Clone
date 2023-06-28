@@ -1,4 +1,4 @@
-* {
+    * {
     margin: 0;
     font-family: Arial;
     border: border-box;
@@ -147,7 +147,8 @@ align-items: flex-end;
 }
 
 /* hero-section */
-.hero-section {
+
+ .hero-section { 
     background: url("Image/hero_image.jpg");
     height: 350px;
     background-size: cover;
@@ -174,8 +175,8 @@ align-items: flex-end;
     color: #007185;
 }
 .hero-left{
-    /* border: 2px solid black; */
-    height: 340px;
+    border: 2px solid black;
+     height: 340px;
     margin-bottom: 2px;
     margin-left: 3px;
     margin-top: 2px;
@@ -185,29 +186,27 @@ align-items: flex-end;
     align-items: center;
 }
 .hero-right{
-    /* border: 2px solid black; */
-    height: 340px;
+     border: 2px solid black; 
+     height: 340px;
     margin-bottom: 2px;
     margin-top: 2px;
     width: 10%;
-    
-    display: flex;
+
+     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .hero-btn{
     width: 100%;
     height: 340px;
     font-size: 30px;
     background: transparent;
-    border: none transparent;
-}
-
+     border: none transparent;
+}  
 .hero-btn:focus{
     border: 2px solid #007185;
     height: 340px;
-}
+} 
 
 /* shop-section */
 .shop-section {
@@ -225,7 +224,13 @@ align-items: flex-end;
     background-color: white;
     margin-top: 15px;
 }
-
+.box4{
+    padding: 20px 0px 15px;
+    height: 100px;
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+}
 .box-img {
     height: 300px;
     background-size: cover;
@@ -259,11 +264,6 @@ align-items: flex-end;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.box-item-img {
-    height: 115px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .box-ads{
     background-image:url("Image/Ads.jpg");
     width: auto;
@@ -271,6 +271,7 @@ align-items: flex-end;
     height: 260px;
     background-size: cover;
 }
+
 /* footer */
 footer{
     margin-top: 15px;
