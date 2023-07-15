@@ -121,6 +121,10 @@ span {
     margin-left: 15px;
 
 }
+.nav-signin a{
+ text-decoration: none;
+ color: white;
+} 
 
 /* panel */
 .panel {
@@ -276,9 +280,25 @@ span {
 .box-ads {
     background-image: url("Image/Ads.jpg");
     width: auto;
-    margin-top: 60px;
+    margin-top: 50px;
     height: 260px;
     background-size: cover;
+}
+.sectionA-btn{
+    border: none transparent;
+    background-color: #f1bc34;
+    margin-top: 10px;
+    height: 30px;
+    display: block;
+    border-radius: 7px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.sectionA-btn a{
+    text-decoration: none;
+    color: black;
 }
 
 /* footer */
